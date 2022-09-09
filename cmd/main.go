@@ -98,7 +98,6 @@ func getChildCmd() ([]string, error) {
 	}
 
 	// If nothing follows the '--', then no child command was specified
-	fmt.Println(childCmdStartIndex, len(args))
 	if childCmdStartIndex == len(args) {
 		return nil, errors.New("No child command specified in arguments")
 	}
