@@ -1,0 +1,12 @@
+both:
+  - counterName: warnings_total
+    help: "Total number of warnings"
+    regex: warning
+stderr:
+  - counterName: errors_total
+    help: "Total number of errors"
+    regex: error
+stdout:
+  - counterName: foos_total
+    help: "Total number of foos"
+    regex: foo complete
