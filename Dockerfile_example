@@ -1,0 +1,2 @@
+FROM debian:stable-slim
+COPY --from=jhwbarlow/promwrap /usr/bin/promwrap /usr/bin/promwrap
